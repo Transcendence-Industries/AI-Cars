@@ -1,0 +1,8 @@
+# Python 3.10
+
+carla==0.9.15
+keras==2.15.0
+numpy==1.26.4
+opencv-python==4.8.0.76
+tensorflow==2.15.0
+tqdm==4.64.1
