@@ -22,7 +22,7 @@
 ## Training
 
 - Training was parallelized on multiple nodes
-- Self-coded management software for synchronisation between them
+- Self-coded management software for synchronisation between nodes
 - Central mainframe node distributes scripts and collects logs
 
 ## Evaluation
@@ -73,3 +73,5 @@
 
 This project was based on a tutorial
 by [Sentdex](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/).
+
+*Original idea in September 2021*
