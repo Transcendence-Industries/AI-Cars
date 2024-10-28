@@ -13,17 +13,17 @@
 
 ## Introduction
 
-- Carla is used as the simulation environment
-- There are multiple cars driving and learning simultaneously
+- Carla offers the simulation environment with API
+- Multiple agents (cars) are learning simultaneously
 - An attached camera serves as input
-- The agent can execute three actions (steer left/right, accelerate)
-- It receives a positive reward for remaining speed and avoiding collisions
+- The agents can execute three actions (steer left/right, accelerate)
+- They receive a positive reward for remaining speed and avoiding collisions
 
 ## Training
 
 - Training was parallelized on multiple nodes
 - Self-coded management software for synchronisation between nodes
-- Central mainframe node distributes scripts and collects logs
+- Central mainframe distributes scripts and collects results
 
 ## Evaluation
 
@@ -38,29 +38,37 @@
 
 ## Screenshots
 
-*Every agent controls a Cybertruck*
 ![Cybertruck](./Screenshots/Cybertruck.jpg)
+<br/>
+*Every agent controls a Cybertruck*
 
-*View of the agent through the attached camera*
 ![Cam](./Screenshots/Cam.jpg)
+<br/>
+*View of the agent through the attached camera*
 
-*An interesting situation during training*
 ![Fail](./Screenshots/Fail.jpg)
+<br/>
+*An interesting situation during training*
 
-*Small carla map (for testing only)*
 ![Map_1](./Screenshots/Map_2.jpg)
+<br/>
+*Small carla map (for testing only)*
 
-*Bigger carla map (used for training)*
 ![Map_2](./Screenshots/Map_1.jpg)
+<br/>
+*Bigger carla map (used for training)*
 
-*Results of model 1*
 ![Model_1](./Screenshots/Model_1.png)
+<br/>
+*Results of model 1*
 
-*Results of model 2*
 ![Model_2](./Screenshots/Model_2.png)
+<br/>
+*Results of model 2*
 
-*Self-build computing cluster*
 ![Cluster](./Screenshots/Cluster.jpg)
+<br/>
+*Self-build computing cluster*
 
 ## Dependencies
 
